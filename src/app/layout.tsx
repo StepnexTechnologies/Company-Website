@@ -55,7 +55,10 @@ export default function RootLayout({
         lexend.variable,
       )}
     >
-      <body className="flex h-full flex-col">{children}</body>
+    <head>
+      <title>StepNex Technologies</title>
+    </head>
+    <body className="flex h-full flex-col">{children}</body>
     </html>
   );
 }
